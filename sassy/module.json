@@ -1,0 +1,59 @@
+{
+	"id": "sassy",
+	"title": "SWADE Advanced Sheet Styler",
+	"description": "<p>A module that allows for easy customisation of the sheets on the SWADE system on Foundry VTT. <a href='https://ko-fi.com/salieric'>Please consider donating.</a> Make sure to reference SASSY so I can give Kyne his share. Thank you. &lt;3</p>",
+	"compatibility": {
+		"minimum": 10,
+		"verified": "10"
+	},
+	"version": "0.0.0",
+	"authors": [
+		{
+			"name": "Kyane",
+			"url": "https://github.com/Tenyryas",
+			"discord": "Kyane#8654"
+		},
+		{
+		  "name": "SalieriC",
+		  "url": "https://ko-fi.com/salieric",
+		  "discord": "SalieriC#8263"
+		}
+	  ],
+	"relationships": {
+		"systems": [
+			{
+				"id": "swade",
+				"type": "system",
+				"manifest": "https://gitlab.com/api/v4/projects/16269883/packages/generic/swade/latest/system.json",
+				"compatibility": {
+					"minimum": "2.0.0",
+					"verified": "2.1.0"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "colorsettings",
+				"type": "module",
+				"manifest": "https://raw.githubusercontent.com/ardittristan/VTTColorSettings/master/module.json",
+				"compatibility": {
+					"minimum": "2.9.0",
+					"verified": "2.9.0"
+				}
+			}
+		]
+	},
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"esmodules": [
+		"./scripts/init.js"
+	],
+	"url": "https://github.com/SalieriC/SASSY",
+	"manifest": "",
+	"download": ""
+}
