@@ -29,6 +29,15 @@
 					"minimum": "2.0.0",
 					"verified": "2.1.0"
 				}
+			},
+			{
+				"id": "settings-extender",
+				"type": "module",
+				"manifest": "https://gitlab.com/foundry-azzurite/settings-extender/-/jobs/artifacts/master/raw/dist/settings-extender/module.json?job=build",
+				"compatibility": {
+					"minimum": "1.2.1",
+					"verified": "1.2.1"
+				}
 			}
 		],
 		"requires": [
