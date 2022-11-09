@@ -1,5 +1,6 @@
 # SASSY - SWADE Advanced Sheet Styler
 A configurable CSS module for the SWADE system on Foundry VTT.  
+With SASSY you can theme and style the SWADE actor and item sheets in an easy fashion. This way you can easily fit them to your setting.  
   
 ## Spare a coin?
 You can support us directly on KoFi:  
